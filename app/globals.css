@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Colors */
+  --color-primary: #0F2B3C;
+  --color-primary-light: #1a4a63;
+  --color-secondary: #1B6B4A;
+  --color-secondary-light: #238f62;
+  --color-accent: #E8A838;
+  --color-accent-light: #f0be60;
+  --color-light-bg: #F7F5F0;
+  --color-dark-bg: #0A1F2E;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A5568;
+  --color-success: #22C55E;
+  --color-border: #E2DDD5;
+  --color-white: #FFFFFF;
+
+  /* Fonts */
+  --font-serif: var(--font-instrument-serif), Georgia, serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+body {
+  background: var(--color-light-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
