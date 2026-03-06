@@ -106,7 +106,7 @@ export default function CaseStudiesPage() {
             Ready to write your own success story?
           </h2>
           <Button href="/contact" variant="primary" size="lg">
-            Book a Free Strategy Call
+            Book a Strategy Call
           </Button>
         </div>
       </section>

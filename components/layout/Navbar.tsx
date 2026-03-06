@@ -34,7 +34,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button href="/contact" variant="primary" size="sm">
-            Book a Call
+            Book a Strategy Call
           </Button>
         </div>
 
@@ -75,7 +75,7 @@ export function Navbar() {
             ))}
             <div className="pt-3">
               <Button href="/contact" variant="primary" size="md" className="w-full">
-                Book a Call
+                Book a Strategy Call
               </Button>
             </div>
           </div>

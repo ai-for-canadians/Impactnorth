@@ -70,17 +70,12 @@ export default function FAQPage() {
             Still have questions?
           </h2>
           <p className="text-text-secondary text-lg mb-8">
-            We&apos;d love to hear from you. Book a free strategy call or send
-            us a message.
+            We&apos;d love to hear from you. Book a strategy call and
+            we&apos;ll talk through your specific situation.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" variant="primary" size="lg">
-              Book a Call
-            </Button>
-            <Button href="/contact" variant="outline" size="lg">
-              Send a Message
-            </Button>
-          </div>
+          <Button href="/contact" variant="primary" size="lg">
+            Book a Strategy Call
+          </Button>
         </div>
       </section>
     </>

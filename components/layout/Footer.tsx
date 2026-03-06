@@ -3,9 +3,9 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 const footerLinks = {
   Services: [
-    { label: "1:1 AI Coaching", href: "/services#coaching" },
-    { label: "AI Readiness Workshop", href: "/services#workshop" },
-    { label: "Implementation Sprint", href: "/services#sprint" },
+    { label: "Executive AI Advisory", href: "/services#advisory" },
+    { label: "AI Strategy Intensive", href: "/services#intensive" },
+    { label: "Operational AI Integration", href: "/services#integration" },
     { label: "Fractional CAO", href: "/services#cao" },
   ],
   Company: [
@@ -38,9 +38,6 @@ export function Footer() {
               {SITE_CONFIG.tagline}
             </p>
             <p className="mt-4 text-sm text-gray-400">
-              {SITE_CONFIG.location}
-            </p>
-            <p className="text-sm text-gray-400">
               {SITE_CONFIG.serviceArea}
             </p>
 
@@ -84,12 +81,10 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} ImpactNorth AI for Canadians Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} ImpactNorth AI Inc. All rights reserved.
           </p>
           <p className="text-sm text-gray-500">
-            <Link href="/contact" className="hover:text-white transition-colors">
-              {SITE_CONFIG.email}
-            </Link>
+            North America &middot; Eastern Time (ET)
           </p>
         </div>
       </div>

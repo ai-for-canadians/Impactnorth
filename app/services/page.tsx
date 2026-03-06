@@ -4,84 +4,111 @@ import { CalendlyEmbed } from "@/components/shared/CalendlyEmbed";
 import { StructuredData } from "@/components/seo/StructuredData";
 
 export const metadata: Metadata = {
-  title: "Services & Pricing",
+  title: "AI Consulting Services | Executive Advisory, Strategy & Integration",
   description:
-    "AI consulting services for nonprofits and growing companies. From 1:1 coaching ($500/session) to Fractional CAO ($6,000/mo). Practical AI implementation with measurable results.",
+    "From Executive AI Advisory to full Operational Integration \u2014 our five-layer value model delivers $4,675\u2013$10,450/month in documented value. Serving nonprofits and SMEs across North America.",
   openGraph: {
-    title: "Services & Pricing | ImpactNorth AI",
+    title: "AI Consulting Services | ImpactNorth AI",
     description:
-      "AI consulting services from 1:1 coaching to full implementation. Practical AI that works, starting at $500/session.",
+      "Executive AI Advisory, Strategy Intensives, Operational Integration, and Fractional CAO services. Five-layer value model with documented ROI.",
   },
 };
 
 const services = [
   {
-    id: "coaching",
-    title: "1:1 AI Coaching",
+    id: "advisory",
+    title: "Executive AI Advisory",
     badge: "Most Popular",
-    price: "$500–750 USD/session",
-    priceAlt: "or $2,500–4,000/month retainer",
-    duration: "60-minute sessions, ongoing",
-    description: "Our most popular entry point — and our highest-rated service.",
-    outcome: "Clients typically save 5–10 hours/week within the first month",
-    forWho: "Executive Directors, founders, team leads who want to move fast",
+    price: "$500\u2013750 USD/session",
+    priceAlt: "or $2,500\u20134,000/month retainer",
+    duration: "Personalized sessions, ongoing",
+    description:
+      "Strategic AI counsel for leaders who need results, not tutorials.",
+    outcome:
+      "Clients typically reclaim 50+ hours/month and report complete elimination of routine overtime within 60 days.",
+    forWho:
+      "Executive Directors, COOs, Communications Directors, and senior leaders at mission-driven organizations.",
     includes: [
-      "Personalized, one-on-one AI coaching sessions",
-      "Tailored to your role, your tools, your workflows",
-      "Hands-on: you'll leave every session with something you can use immediately",
+      "Customized AI workflow development for your specific function",
+      "Persistent AI workspace setup (Claude Projects, custom instructions)",
       "Async support between sessions via Slack or email",
-      "Progress tracking and workflow documentation",
+      "Monthly Value Report documenting ROI across all five value layers",
     ],
+    testimonial: {
+      quote:
+        "ImpactNorth didn\u2019t just give us tools \u2014 they gave us our Fridays back. I\u2019m a much happier human being.",
+      attribution: "Communications Director, National Science Organization",
+    },
     featured: true,
   },
   {
-    id: "workshop",
-    title: "AI Readiness Workshop",
-    price: "$3,500–5,000 USD",
+    id: "intensive",
+    title: "The AI Strategy Intensive",
+    price: "$3,500\u20135,000 USD",
     duration: "Half-day or full-day, virtual or in-person",
-    description: "Get your entire team up to speed in a single session.",
-    outcome: "Your team leaves with 3–5 AI workflows they can use on Monday morning",
-    forWho: "Teams of 5–25 ready to get started together",
+    description: "A focused sprint from AI-curious to AI-capable.",
+    outcome:
+      "Teams leave with operational workflows \u2014 not slide decks \u2014 and a clear path to measurable ROI within 30 days.",
+    forWho: "Leadership teams of 5\u201325 ready to align on AI strategy.",
     includes: [
-      "AI opportunity assessment customized to your organization",
-      "Hands-on tool training with your actual workflows",
-      "Prioritized action plan with quick wins identified",
-      "Follow-up resource guide and implementation checklist",
+      "Organizational AI readiness assessment",
+      "Workflow audit across 3\u20135 priority functions",
+      "Hands-on tool training with your actual content and data",
+      "Prioritized implementation roadmap with 30/60/90-day milestones",
     ],
+    testimonial: {
+      quote:
+        "We left with workflows we used on Monday morning \u2014 not another slide deck.",
+      attribution: "",
+    },
     featured: false,
   },
   {
-    id: "sprint",
-    title: "AI Implementation Sprint",
-    price: "$8,000–15,000 USD",
-    duration: "4–8 week engagement",
-    description: "Go beyond training. Build AI into your operations.",
-    outcome: "Measurable productivity gains documented and repeatable",
-    forWho: "Organizations ready to move from exploring to operating",
+    id: "integration",
+    title: "Operational AI Integration",
+    price: "$8,000\u201315,000 USD",
+    duration: "4\u20138 week engagement",
+    description: "From scattered tools to embedded systems.",
+    outcome:
+      "We consistently deliver 33\u201350% workflow reduction and $4,675\u2013$10,450/month in measurable value within the first 90 days.",
+    forWho:
+      "Organizations ready to move from exploring AI to operating with AI.",
     includes: [
-      "Deep workflow audit and AI integration assessment",
-      "3–5 custom AI workflows built and documented",
-      "Staff training and standard operating procedures",
-      "Before/after metrics and impact measurement",
-      "30-day post-sprint support",
+      "Deep workflow audit across all priority functions",
+      "Custom AI workspace construction (Claude Projects, automated workflows)",
+      "3\u20135 fully documented operational AI workflows with SOPs",
+      "Staff training program with adoption reinforcement strategy",
+      "Monthly Value Report with five-layer ROI benchmarking",
     ],
+    testimonial: {
+      quote:
+        "Within one month, we went from zero AI infrastructure to five active value layers generating board-ready ROI.",
+      attribution: "Executive, National Science Organization",
+    },
     featured: false,
   },
   {
     id: "cao",
     title: "Fractional Chief AI Officer",
-    price: "$6,000–12,000 USD/month",
+    price: "$6,000\u201312,000 USD/month",
     duration: "Ongoing strategic engagement",
-    description: "Enterprise-grade AI leadership at a fraction of the cost.",
-    outcome: "A complete AI strategy aligned with your organizational goals",
-    forWho: "Organizations with 50+ employees scaling AI across departments",
+    description:
+      "Enterprise-grade AI strategy without the enterprise price tag.",
+    outcome:
+      "A complete AI strategy aligned with your organizational goals, with documented monthly ROI.",
+    forWho: "Organizations with 50+ employees scaling AI across departments.",
     includes: [
       "AI roadmap development and execution oversight",
       "Vendor evaluation and technology selection",
       "AI policy development and governance",
-      "Board-ready presentations and reporting",
+      "Board-ready presentations and monthly value reporting",
       "Team training and change management",
     ],
+    testimonial: {
+      quote:
+        "Enterprise-grade AI strategy without the enterprise price tag.",
+      attribution: "",
+    },
     featured: false,
   },
 ];
@@ -94,7 +121,10 @@ const serviceSchema = {
     name: "ImpactNorth AI",
   },
   serviceType: "AI Consulting",
-  areaServed: { "@type": "Country", name: "United States" },
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "Country", name: "Canada" },
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "AI Consulting Services",
@@ -123,11 +153,11 @@ export default function ServicesPage() {
             Our Services
           </span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mb-6">
-            From first steps to full transformation
+            From advisory to operational AI infrastructure
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Find your starting point. Every engagement is customized to your
-            organization, your workflows, and your goals.
+            Every engagement is measured across five value layers. Choose the
+            entry point that fits your organization.
           </p>
         </div>
       </section>
@@ -192,6 +222,32 @@ export default function ServicesPage() {
                   >
                     {service.description}
                   </p>
+
+                  {/* Testimonial */}
+                  {service.testimonial && (
+                    <div
+                      className={`mt-6 pl-4 border-l-2 ${
+                        service.featured ? "border-accent/40" : "border-secondary/30"
+                      }`}
+                    >
+                      <p
+                        className={`text-sm italic ${
+                          service.featured ? "text-gray-300" : "text-text-secondary"
+                        }`}
+                      >
+                        &ldquo;{service.testimonial.quote}&rdquo;
+                      </p>
+                      {service.testimonial.attribution && (
+                        <p
+                          className={`text-xs mt-1 ${
+                            service.featured ? "text-gray-400" : "text-text-secondary/70"
+                          }`}
+                        >
+                          &mdash; {service.testimonial.attribution}
+                        </p>
+                      )}
+                    </div>
+                  )}
                 </div>
 
                 {/* Right: Details */}
@@ -273,7 +329,7 @@ export default function ServicesPage() {
                     variant={service.featured ? "primary" : "secondary"}
                     size="lg"
                   >
-                    Book a Call to Discuss
+                    Book a Strategy Call
                   </Button>
                 </div>
               </div>
@@ -293,19 +349,19 @@ export default function ServicesPage() {
               <thead>
                 <tr className="border-b-2 border-primary">
                   <th className="py-4 pr-4 text-primary font-semibold">Feature</th>
-                  <th className="py-4 px-4 text-primary font-semibold">1:1 Coaching</th>
-                  <th className="py-4 px-4 text-primary font-semibold">Workshop</th>
-                  <th className="py-4 px-4 text-primary font-semibold">Sprint</th>
+                  <th className="py-4 px-4 text-primary font-semibold">Executive Advisory</th>
+                  <th className="py-4 px-4 text-primary font-semibold">Strategy Intensive</th>
+                  <th className="py-4 px-4 text-primary font-semibold">Integration</th>
                   <th className="py-4 px-4 text-primary font-semibold">Fractional CAO</th>
                 </tr>
               </thead>
               <tbody className="text-text-secondary">
                 {[
                   { feature: "Starting Price", values: ["$500/session", "$3,500", "$8,000", "$6,000/mo"] },
-                  { feature: "Duration", values: ["Ongoing", "1 day", "4–8 weeks", "Ongoing"] },
-                  { feature: "Team Size", values: ["1 person", "5–25", "Whole org", "50+"] },
-                  { feature: "Custom Workflows", values: ["Yes", "3–5", "3–5 built", "Org-wide"] },
-                  { feature: "Strategy & Roadmap", values: ["Individual", "Team plan", "Full audit", "Enterprise"] },
+                  { feature: "Duration", values: ["Ongoing", "1 day", "4\u20138 weeks", "Ongoing"] },
+                  { feature: "Team Size", values: ["1 person", "5\u201325", "Whole org", "50+"] },
+                  { feature: "Custom Workflows", values: ["Yes", "3\u20135", "3\u20135 built + SOPs", "Org-wide"] },
+                  { feature: "Value Reporting", values: ["Monthly", "Post-event", "Monthly", "Monthly"] },
                   { feature: "Ongoing Support", values: ["Async included", "Follow-up guide", "30-day post", "Continuous"] },
                 ].map((row) => (
                   <tr key={row.feature} className="border-b border-border">

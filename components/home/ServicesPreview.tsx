@@ -8,14 +8,14 @@ export function ServicesPreview() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-mono font-bold text-accent uppercase tracking-wider mb-4">
-            How We Help
+            Our Services
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-primary mb-4">
-            Find your starting point
+            From advisory to full integration
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-            From your first AI workflow to organization-wide transformation —
-            we have a service for every stage of the journey.
+            Every engagement is measured across five value layers. Choose the
+            entry point that fits your organization.
           </p>
         </div>
 

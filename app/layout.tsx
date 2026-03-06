@@ -26,26 +26,26 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ImpactNorth AI — Practical AI Consulting for Nonprofits & Growing Companies",
+    default: "ImpactNorth AI | Operational AI Consulting for Nonprofits & SMEs",
     template: "%s | ImpactNorth AI",
   },
   description:
-    "ImpactNorth AI helps nonprofits and growing companies implement AI that actually works — practical training, hands-on coaching, and measurable results. Save 20+ hours/month per employee.",
+    "Turn AI tools into operational assets. ImpactNorth AI delivers measurable efficiency, expanded capacity, and succession-ready infrastructure for mission-driven organizations across North America.",
   metadataBase: new URL(SITE_CONFIG.url),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
-    title: "ImpactNorth AI — Practical AI Consulting for Nonprofits & Growing Companies",
+    title: "ImpactNorth AI | Operational AI Consulting for Nonprofits & SMEs",
     description:
-      "Practical AI training, hands-on coaching, and measurable results for nonprofits and growing companies. Save 20+ hours/month per employee.",
+      "Turn AI tools into operational assets. Measurable efficiency, expanded capacity, and succession-ready infrastructure for mission-driven organizations.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ImpactNorth AI — Practical AI Consulting",
+    title: "ImpactNorth AI | Operational AI Consulting",
     description:
-      "Practical AI training, hands-on coaching, and measurable results for nonprofits and growing companies.",
+      "Turn AI tools into operational assets. Measurable efficiency and succession-ready infrastructure for mission-driven organizations.",
   },
   robots: {
     index: true,
@@ -58,14 +58,18 @@ const organizationSchema = {
   "@type": "Organization",
   name: "ImpactNorth AI",
   url: SITE_CONFIG.url,
-  description: "AI consulting for nonprofits and growing companies",
-  areaServed: { "@type": "Country", name: "United States" },
+  description:
+    "Operational AI consulting for nonprofits and mission-driven organizations across North America",
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "Country", name: "Canada" },
+  ],
   sameAs: [SITE_CONFIG.linkedin],
   contactPoint: {
     "@type": "ContactPoint",
-    email: SITE_CONFIG.email,
+    url: `${SITE_CONFIG.url}/contact`,
     contactType: "sales",
-    areaServed: "US",
+    areaServed: "North America",
     availableLanguage: "English",
   },
 };

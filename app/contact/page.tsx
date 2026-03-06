@@ -4,11 +4,11 @@ import { CalendlyEmbed } from "@/components/shared/CalendlyEmbed";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a free AI strategy call with ImpactNorth AI. Based in Toronto (Eastern Time), serving clients across North America. Let's discuss how AI can help your organization.",
+    "Book a free AI strategy call with ImpactNorth AI. Serving mission-driven organizations across North America. Eastern Time (ET).",
   openGraph: {
-    title: "Book a Call | ImpactNorth AI",
+    title: "Book a Strategy Call | ImpactNorth AI",
     description:
-      "Book a free strategy call. Let's discuss how AI can help your organization.",
+      "Book a free strategy call. We\u2019ll discuss how AI can help your organization.",
   },
 };
 
@@ -26,7 +26,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Book a free 15-minute strategy call. We&apos;ll discuss where AI can
-            make the biggest impact for your organization — and map out a
+            make the biggest impact for your organization &mdash; and map out a
             practical path forward.
           </p>
         </div>
@@ -41,8 +41,8 @@ export default function ContactPage() {
             </h2>
             <p className="text-text-secondary max-w-xl mx-auto">
               Choose a slot below and we&apos;ll send you a calendar invite with
-              a video link. No prep needed — just come ready to talk about your
-              goals.
+              a video link. No prep needed &mdash; just come ready to talk about
+              your goals.
             </p>
           </div>
 
@@ -52,14 +52,12 @@ export default function ContactPage() {
           <div className="mt-12 text-center space-y-3">
             <div className="flex items-center justify-center gap-2 text-text-secondary">
               <svg className="w-5 h-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              <span>Toronto, Canada (Eastern Time)</span>
+              <span>Eastern Time (ET)</span>
             </div>
             <p className="text-sm text-text-secondary/70">
-              We work with clients across North America virtually, and travel
-              for in-person engagements.
+              We work with clients across North America virtually.
             </p>
           </div>
         </div>

@@ -42,11 +42,11 @@ export function CTABar() {
       <div className="bg-primary/95 backdrop-blur-sm border-t md:border-b border-accent/20">
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between gap-4">
           <p className="text-white text-sm md:text-base font-medium hidden sm:block">
-            Ready to see what AI can do for your organization?
+            Ready to turn AI tools into operational assets?
           </p>
           <div className="flex items-center gap-3 w-full sm:w-auto">
             <Button href="/contact" variant="primary" size="sm" className="flex-1 sm:flex-none">
-              Book a Free Strategy Call
+              Book a Strategy Call
             </Button>
             <button
               onClick={() => {

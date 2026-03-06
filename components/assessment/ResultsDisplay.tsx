@@ -107,7 +107,7 @@ export function ResultsDisplay({ result, name }: ResultsDisplayProps) {
           organization.
         </p>
         <Button href="/contact" variant="primary" size="lg">
-          Book a Free Strategy Call
+          Book a Strategy Call
         </Button>
       </div>
     </div>

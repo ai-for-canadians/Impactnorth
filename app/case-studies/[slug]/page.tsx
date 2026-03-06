@@ -23,7 +23,7 @@ const caseStudyData: Record<
     title: "How a national science organization equipped their team with AI in one day",
     org: "National Science Organization",
     orgType: "Nonprofit",
-    service: "AI Readiness Workshop",
+    service: "AI Strategy Intensive",
     timeline: "1-day workshop + 2-week follow-up",
     challenge: "A 20-person team eager to use AI but stuck at the starting line",
     challengeDetail:
@@ -49,13 +49,13 @@ const caseStudyData: Record<
     title: "From AI curious to AI confident: A communications team's transformation",
     org: "Regional Communications Agency",
     orgType: "Small Business",
-    service: "1:1 AI Coaching + Implementation Sprint",
+    service: "Executive AI Advisory + Operational Integration",
     timeline: "8-week engagement",
     challenge: "A communications team drowning in repetitive content tasks",
     challengeDetail:
       "A growing communications agency was spending over 60% of their time on repetitive content creation tasks — first drafts, social media scheduling, client reporting, and meeting summaries. The founder knew AI could help but had tried generic tools and courses without seeing meaningful results. They needed a customized approach that fit their specific client workflows.",
     approach: [
-      "Started with 1:1 coaching for the founder to identify highest-impact opportunities",
+      "Started with Executive AI Advisory sessions to identify highest-impact opportunities",
       "Conducted a deep workflow audit across all client-facing processes",
       "Built 4 custom AI workflows: content brief-to-draft pipeline, social media content calendar generation, client report automation, and meeting-to-action-items summarization",
       "Trained the full team on each workflow with hands-on practice sessions",
@@ -207,7 +207,7 @@ export default async function CaseStudyPage({
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/contact" variant="primary" size="lg">
-                Book a Free Strategy Call
+                Book a Strategy Call
               </Button>
               <Button href="/case-studies" variant="outline" size="md">
                 View More Case Studies

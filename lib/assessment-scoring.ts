@@ -155,21 +155,21 @@ function getRecommendations(stage: string, orgType?: string): string[] {
 
   const recs: Record<string, string[]> = {
     curious: [
-      "Start with 1:1 AI Coaching to build foundational skills in a personalized setting",
+      "Start with Executive AI Advisory to build foundational skills in a personalized setting",
       isNonprofit
         ? "Identify 2–3 quick-win workflows: grant research, donor thank-you emails, and meeting summaries"
         : "Identify 2–3 quick-win workflows: email drafting, report generation, and data cleanup",
-      "Take our AI Readiness Workshop to get your entire team aligned on AI basics",
+      "Take our AI Strategy Intensive to get your entire team aligned and operational",
     ],
     capable: [
       "Formalize an AI policy to give your team confidence and guardrails",
-      "Move from individual experimentation to team-wide AI adoption with a structured workshop",
+      "Move from individual experimentation to team-wide AI adoption with a structured AI Strategy Intensive",
       isNonprofit
         ? "Focus on high-impact areas: grant writing AI, donor segmentation, and impact reporting"
         : "Focus on high-impact areas: customer communication, sales processes, and operations automation",
     ],
     confident: [
-      "Consider an Implementation Sprint to build and document 3–5 custom AI workflows",
+      "Consider Operational AI Integration to build and document 3–5 custom AI workflows",
       "Measure before-and-after metrics to quantify your AI ROI",
       "Develop internal AI champions who can train and support colleagues",
     ],
